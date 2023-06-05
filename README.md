@@ -12,7 +12,7 @@ near digit position of 140672630233
 
 3) Find largest pallindrome prime
 size 23 38898292453535429289883
-near digit position of 2143728293286
+near digit position of 2143728293286 and 
 size 25 9609457639843489367549069
 near digit position of 33135773126758
 
