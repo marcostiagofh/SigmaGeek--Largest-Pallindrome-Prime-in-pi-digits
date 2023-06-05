@@ -1,0 +1,43 @@
+>>estrategia inicial
+passo 0
+	baixar arquivo ycd n
+
+repetir
+	baixar arquivo ycd n+1
+	split n em 10, onde cada parte pega 1 digito anterior e 100 do proximo
+	apagar arquivo ycd n
+	processar as 10 partes do split e gravar resultado em arquivo
+	apagar as 10 partes do split
+	
+>>estrategia final	
+baixa1 = 39,2gb
+
+baixa 2 = 78,4
+split 1 = 171,5gb
+apaga 1 = 132,3gb
+27+20 = 47min
+
+baixa 3 = 171,5gb
+split 2 = 264,6gb
+apaga 2 = 225,4gb
+27+20 = 47min
+
+baixa 4 = 264,6gb
+split 3 = 357,7gb
+apaga 3 = 318,5gb
+27+20 = 47min
+
+baixa 5 = 357,7gb
+split 4 = 450,8gb
+apaga 4 = 411,6gb
+27+20 = 47min
+
+baixa 6 = 450,8gb
+split 5 = 543,9gb
+apaga 5 = 504,7gb
+27+20 = 47
+
+235min = 3h55
+
+processa em paralelo do 1 ao 5, apagando ao final = 39,2gb 2h15
+
